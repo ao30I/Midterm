@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f2f2f2;
+}
+ul{
+	list-style: none;
+	padding-left:0px;
+	padding-right: 5px;
+	padding-bottom:6px;
+	padding-top:4px;
+	overflow:hidden;
+	margin:0;
+}
+li{
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+	margin-top:0;
+	display:inline;
+	background: #C5C4C4;
+	padding-bottom:3px;
+	padding-top:3px;
+	padding-right:5px;
+	padding-left:5px;
+}
+li a {
+    color:#595959;
+    text-align: center;
+    padding-top:2px;
+	padding-bottom:2px;
+	padding-left:50px;
+	padding-right:50px;
+    text-decoration: none;
+	background-color:#C5C4C4;
+}
+li a:hover{
+	background-color: #4CAF50;
+	color: black;
+	
+}
+h1{
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding: 15px;
+	margin: 0px;
+}
+h3{
+	text-align:center;
+	padding:3%;
+}
+.htmlform{
+	float:center;
+	align-items: center;
+}
+.table{
+	align-content:center;
+	float:center;
+}
+.input[type=text], select, textarea {
+    width: 15%;
+    padding-bottom:10px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-left:10px;
+	margin-left:1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+	float:center;
+}
+.htmlform label {
+	float:center;
+    padding-bottom: 5px;
+	margin-bottom:5px;
+    display: inline-block;
+	font-size: 10px;
+	text-align:center;
+}
+.button1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0;
+	margin-left: 50%;
+    border: none;
+    border-top-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+    cursor: pointer;
+    float: center;
+}
+
+/*.container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	float:center;
+} */
+
+.col-25 {
+    float: center;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: center;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.body container{
+	float:center;
+}
+
